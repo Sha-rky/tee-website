@@ -12,17 +12,7 @@ export default function Home() {
 					<AvatarCard src="/cto.png" alt="CTO" username="CTO" position="CTO" />
 					<AvatarCard src="/cio.png" alt="CIO" username="CIO" position="CIO" />
 				</div>
-			</div>
-			<div className="w-full bg-gradient-to-tr from-blue-300/40 via-white/80 to-green-300/40">
-				<div className="max-w-[960px] mx-auto flex">
-					<div className="flex-1 flex flex-col items-center py-[40px]">
-						<h1 className="text-4xl font-bold flex-1">OTHER SCENARIOS</h1>
-						<AccordionList />
-					</div>
-					<div className="flex-1">
-						<Image src="/scenario-01.png" alt="Scenario 01" width={1414} height={2000} className="w-full h-auto object-cover" />
-					</div>
-				</div>
+				<AccordionList />
 			</div>
 
 {/* 
